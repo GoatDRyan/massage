@@ -1,5 +1,6 @@
 import { ArrowRight, HeartHandshake, Leaf, MessageCircle, Sparkles } from "lucide-react";
 import { Hero } from "../components/Hero";
+import { PersonalStory } from "../components/PersonalStory";
 import { Testimonials } from "../components/Testimonials";
 import { Reviews } from "../components/Reviews";
 import { Card, CardContent } from "../components/ui/card";
@@ -73,7 +74,7 @@ export function HomePage({ onNavigate }) {
           </div>
         </div>
       </section>
-
+      <PersonalStory />
       <Testimonials />
 
       <section className="bg-gradient-to-br from-primary/5 to-secondary/5 py-20">

@@ -47,6 +47,14 @@ export function PersonalStory() {
                     height="1800"
                   />
                 </div>
+                <img
+                  src={`${import.meta.env.BASE_URL}img/logo.png`}
+                  alt="Signature de Magali Perrin"
+                  className="mt-6 mx-auto h-auto w-92 object-contain rounded-lg"
+                  loading="lazy"
+                  width="200"
+                  height="100"
+                />
               </div>
             </div>
           </div>
