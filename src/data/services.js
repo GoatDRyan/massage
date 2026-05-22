@@ -191,7 +191,7 @@ export const reflexologyServices = [
       },
       {
         time: "90 min",
-        price: "58 €",
+        price: "70 €",
         calLink: "votre-lien-a-remplacer/reflexologie-plantaire-90",
         calOrigin: "https://cal.com",
         bookingUrl: "https://cal.com/votre-lien-a-remplacer/reflexologie-plantaire-90",
