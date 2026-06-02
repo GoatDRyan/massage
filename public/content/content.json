@@ -230,6 +230,232 @@
       ]
     }
   ],
+  "services": [
+    {
+      "id": "massage-suedois-californien-60 min",
+      "title": "Massage suédois californien",
+      "duration": "60 min",
+      "price": "70 €",
+      "description": "Massage relaxant et enveloppant combinant des mouvements fluides et profonds pour relâcher les tensions musculaires et favoriser la détente globale.",
+      "benefits": [
+        "Détente profonde",
+        "Relâchement musculaire",
+        "Apaisement du stress",
+        "Harmonie du corps"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-suedois-californien",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-suedois-californien"
+    },
+    {
+      "id": "massage-suedois-californien-90 min",
+      "title": "Massage suédois californien",
+      "duration": "90 min",
+      "price": "90 €",
+      "description": "Massage relaxant et enveloppant combinant des mouvements fluides et profonds pour relâcher les tensions musculaires et favoriser la détente globale.",
+      "benefits": [
+        "Détente profonde",
+        "Relâchement musculaire",
+        "Apaisement du stress",
+        "Harmonie du corps"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-suedois-californien-90",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-suedois-californien-90"
+    },
+    {
+      "id": "massage-thai-des-pieds-60 min",
+      "title": "Massage thaï des pieds",
+      "duration": "60 min",
+      "price": "70 €",
+      "description": "Massage des pieds inspiré de techniques de réflexologie, idéal pour favoriser la détente, l’ancrage et la sensation de légèreté.",
+      "benefits": [
+        "Stimulation énergétique",
+        "Amélioration de la circulation",
+        "Détente des pieds",
+        "Rééquilibrage corporel"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-thai-des-pieds",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-thai-des-pieds"
+    },
+    {
+      "id": "massage-thai-des-pieds-90 min",
+      "title": "Massage thaï des pieds",
+      "duration": "90 min",
+      "price": "90 €",
+      "description": "Massage des pieds inspiré de techniques de réflexologie, idéal pour favoriser la détente, l’ancrage et la sensation de légèreté.",
+      "benefits": [
+        "Stimulation énergétique",
+        "Amélioration de la circulation",
+        "Détente des pieds",
+        "Rééquilibrage corporel"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-thai-des-pieds-90",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-thai-des-pieds-90"
+    },
+    {
+      "id": "massage-amincissant-60 min",
+      "title": "Massage amincissant",
+      "duration": "60 min",
+      "price": "70 €",
+      "description": "Massage tonique ciblé favorisant la circulation sanguine et lymphatique, aidant à lisser la peau et améliorer la silhouette.",
+      "benefits": [
+        "Circulation activée",
+        "Tonification",
+        "Peau lissée",
+        "Soutien de la silhouette"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-amincissant",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-amincissant"
+    },
+    {
+      "id": "massage-amincissant-90 min",
+      "title": "Massage amincissant",
+      "duration": "90 min",
+      "price": "90 €",
+      "description": "Massage tonique ciblé favorisant la circulation sanguine et lymphatique, aidant à lisser la peau et améliorer la silhouette.",
+      "benefits": [
+        "Circulation activée",
+        "Tonification",
+        "Peau lissée",
+        "Soutien de la silhouette"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-amincissant-90",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-amincissant-90"
+    },
+    {
+      "id": "massage-ayurvedique-60 min",
+      "title": "Massage ayurvédique",
+      "duration": "60 min",
+      "price": "70 €",
+      "description": "Massage énergétique issu de la tradition indienne, utilisant des mouvements rythmiques pour harmoniser le corps et l’esprit.",
+      "benefits": [
+        "Harmonisation énergétique",
+        "Rythme apaisant",
+        "Détente intérieure",
+        "Rééquilibrage corporel"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-ayurvedique",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-ayurvedique"
+    },
+    {
+      "id": "massage-ayurvedique-90 min",
+      "title": "Massage ayurvédique",
+      "duration": "90 min",
+      "price": "90 €",
+      "description": "Massage énergétique issu de la tradition indienne, utilisant des mouvements rythmiques pour harmoniser le corps et l’esprit.",
+      "benefits": [
+        "Harmonisation énergétique",
+        "Rythme apaisant",
+        "Détente intérieure",
+        "Rééquilibrage corporel"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-ayurvedique-90",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-ayurvedique-90"
+    },
+    {
+      "id": "massage-bebe-60 min",
+      "title": "Massage bébé",
+      "duration": "60 min",
+      "price": "50 €",
+      "description": "Moment de douceur favorisant le lien parent-enfant, la détente et le bien-être du nourrisson.",
+      "benefits": [
+        "Douceur apaisante",
+        "Lien parent-enfant",
+        "Bien-être du nourrisson",
+        "Détente profonde"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-bebe",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-bebe"
+    },
+    {
+      "id": "massage-dos-nuque-epaules-30 min",
+      "title": "Massage dos, nuque et épaules",
+      "duration": "30 min",
+      "price": "35 €",
+      "description": "Une séance courte pour soulager les tensions du haut du corps et retrouver plus de confort.",
+      "benefits": [
+        "Soulage les tensions",
+        "Détend la nuque",
+        "Apaise les épaules",
+        "Idéal en cas de fatigue"
+      ],
+      "calLink": "magali-perrin/massage-dos-nuque-epaules",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/magali-perrin/massage-dos-nuque-epaules"
+    },
+    {
+      "id": "massage-dos-nuque-epaules-60 min",
+      "title": "Massage dos, nuque et épaules",
+      "duration": "60 min",
+      "price": "70 €",
+      "description": "Une séance courte pour soulager les tensions du haut du corps et retrouver plus de confort.",
+      "benefits": [
+        "Soulage les tensions",
+        "Détend la nuque",
+        "Apaise les épaules",
+        "Idéal en cas de fatigue"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-dos-nuque-epaules-60",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-dos-nuque-epaules-60"
+    },
+    {
+      "id": "massage-dos-nuque-epaules-90 min",
+      "title": "Massage dos, nuque et épaules",
+      "duration": "90 min",
+      "price": "90 €",
+      "description": "Une séance courte pour soulager les tensions du haut du corps et retrouver plus de confort.",
+      "benefits": [
+        "Soulage les tensions",
+        "Détend la nuque",
+        "Apaise les épaules",
+        "Idéal en cas de fatigue"
+      ],
+      "calLink": "votre-lien-a-remplacer/massage-dos-nuque-epaules-90",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-dos-nuque-epaules-90"
+    },
+    {
+      "id": "reflexologie-plantaire-60 min",
+      "title": "Réflexologie plantaire",
+      "duration": "60 min",
+      "price": "50 €",
+      "description": "Technique de stimulation des zones réflexes du pied pour favoriser la détente, l’ancrage et une sensation d’équilibre global.",
+      "benefits": [
+        "Relaxation",
+        "Sensation d’équilibre",
+        "Jambes plus légères",
+        "Bien-être global"
+      ],
+      "calLink": "votre-lien-a-remplacer/reflexologie-plantaire",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/reflexologie-plantaire"
+    },
+    {
+      "id": "reflexologie-plantaire-90 min",
+      "title": "Réflexologie plantaire",
+      "duration": "90 min",
+      "price": "70 €",
+      "description": "Technique de stimulation des zones réflexes du pied pour favoriser la détente, l’ancrage et une sensation d’équilibre global.",
+      "benefits": [
+        "Relaxation",
+        "Sensation d’équilibre",
+        "Jambes plus légères",
+        "Bien-être global"
+      ],
+      "calLink": "votre-lien-a-remplacer/reflexologie-plantaire-90",
+      "calOrigin": "https://cal.com",
+      "bookingUrl": "https://cal.com/votre-lien-a-remplacer/reflexologie-plantaire-90"
+    }
+  ],
   "faqItems": [
     {
       "question": "Quelle zone couvrez-vous autour de Rouen ?",
