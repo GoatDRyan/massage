@@ -89,3 +89,33 @@ Pour changer la structure visuelle, le code doit encore être modifié par un d�
 
 La page `/admin` est visible si quelqu'un connaît l'URL, mais les modifications sont protégées par le mot de passe `ADMIN_PASSWORD` côté serveur.
 Le token GitHub reste caché dans Vercel.
+
+## Important troubleshooting
+
+### The cursor leaves the field after each character
+This was caused by unstable React keys in the first admin version. Update to the fixed version where editor rows use stable index-based keys while editing.
+
+### Saving fails locally
+`npm run dev` only starts Vite. It does not run Vercel serverless functions in `/api`.
+To test saving locally, use:
+
+```bash
+npm install -g vercel
+vercel dev
+```
+
+Then open the local URL given by Vercel, usually `http://localhost:3000/admin`.
+
+### Saving fails on Vercel
+Check the project environment variables:
+
+```env
+ADMIN_PASSWORD=your_admin_password
+GITHUB_OWNER=GoatDRyan
+GITHUB_REPO=massage
+GITHUB_BRANCH=main
+CONTENT_FILE_PATH=public/content/content.json
+GITHUB_TOKEN=your_github_token
+```
+
+The GitHub token must be a fine-grained token with access to the selected repository and `Contents: Read and write`.

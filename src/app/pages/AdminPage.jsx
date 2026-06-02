@@ -74,7 +74,7 @@ function ArrayEditor({ items, onChange, placeholder = "Nouvel élément" }) {
   return (
     <div className="space-y-2">
       {values.map((item, index) => (
-        <div key={`${item}-${index}`} className="flex gap-2">
+        <div key={`array-item-${index}`} className="flex gap-2">
           <input
             value={item}
             onChange={(event) => {
@@ -116,7 +116,7 @@ function ServicesEditor({ title, services, onChange }) {
     <AdminCard title={title} description="Modifie les prestations, bénéfices, durées, prix et liens Cal.com.">
       <div className="space-y-6">
         {services.map((service, serviceIndex) => (
-          <div key={service.id || serviceIndex} className="rounded-3xl border bg-muted/30 p-5">
+          <div key={`service-${serviceIndex}`} className="rounded-3xl border bg-muted/30 p-5">
             <div className="mb-4 flex items-start justify-between gap-4">
               <h3 className="text-lg font-semibold text-foreground">{service.name || "Prestation"}</h3>
               <button
@@ -148,7 +148,7 @@ function ServicesEditor({ title, services, onChange }) {
             <div className="mt-5 space-y-3">
               <p className="text-sm font-medium text-foreground">Durées, tarifs et réservation</p>
               {(service.durations || []).map((duration, durationIndex) => (
-                <div key={`${duration.time}-${durationIndex}`} className="rounded-2xl border bg-white p-4">
+                <div key={`duration-${durationIndex}`} className="rounded-2xl border bg-white p-4">
                   <div className="mb-3 flex justify-end">
                     <button
                       type="button"
@@ -256,8 +256,14 @@ export function AdminPage() {
         body: JSON.stringify({ password, content }),
       });
 
-      const result = await response.json().catch(() => ({}));
-      if (!response.ok) throw new Error(result.error || "La sauvegarde a échoué.");
+      const contentType = response.headers.get("content-type") || "";
+      const result = contentType.includes("application/json")
+        ? await response.json().catch(() => ({}))
+        : { error: await response.text().catch(() => "") };
+
+      if (!response.ok) {
+        throw new Error(result.error || `Erreur HTTP ${response.status}. Vérifie les variables Vercel et que /api/content existe.`);
+      }
 
       setStatus("Contenu sauvegardé dans GitHub. Vercel va redéployer le site automatiquement dans quelques minutes.");
     } catch (error) {
@@ -362,7 +368,7 @@ export function AdminPage() {
             <AdminCard title="FAQ" description="Questions fréquentes affichées sur la page FAQ.">
               <div className="space-y-4">
                 {(content.faqItems || []).map((item, index) => (
-                  <div key={`${item.question}-${index}`} className="rounded-2xl border bg-muted/30 p-4">
+                  <div key={`faq-${index}`} className="rounded-2xl border bg-muted/30 p-4">
                     <div className="mb-3 flex justify-end">
                       <button type="button" onClick={() => setContent({ ...content, faqItems: content.faqItems.filter((_, itemIndex) => itemIndex !== index) })} className="text-xs text-destructive hover:underline">Supprimer</button>
                     </div>
@@ -385,7 +391,7 @@ export function AdminPage() {
             <AdminCard title="Expériences" description="Cercles de parole, ateliers et week-ends bien-être.">
               <div className="space-y-4">
                 {(content.experiences || []).map((experience, index) => (
-                  <div key={`${experience.title}-${index}`} className="rounded-2xl border bg-muted/30 p-4">
+                  <div key={`experience-${index}`} className="rounded-2xl border bg-muted/30 p-4">
                     <div className="mb-3 flex justify-end">
                       <button type="button" onClick={() => setContent({ ...content, experiences: content.experiences.filter((_, itemIndex) => itemIndex !== index) })} className="text-xs text-destructive hover:underline">Supprimer</button>
                     </div>
@@ -409,7 +415,7 @@ export function AdminPage() {
             <AdminCard title="Avis clients" description="Ajoute uniquement de vrais avis, avec accord si nécessaire.">
               <div className="space-y-4">
                 {(content.clientReviews || []).map((review, index) => (
-                  <div key={`${review.author}-${index}`} className="rounded-2xl border bg-muted/30 p-4">
+                  <div key={`review-${index}`} className="rounded-2xl border bg-muted/30 p-4">
                     <div className="mb-3 flex justify-end"><button type="button" onClick={() => setContent({ ...content, clientReviews: content.clientReviews.filter((_, itemIndex) => itemIndex !== index) })} className="text-xs text-destructive hover:underline">Supprimer</button></div>
                     <div className="grid gap-4 md:grid-cols-2">
                       <Field label="Nom" value={review.author || review.clientName} onChange={(value) => { const clientReviews = [...content.clientReviews]; clientReviews[index] = { ...review, author: value, clientName: value }; setContent({ ...content, clientReviews }); }} />
