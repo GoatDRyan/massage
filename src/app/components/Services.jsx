@@ -2,7 +2,7 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
-import { massageServices, reflexologyServices } from "../../data/services";
+import { useContent } from "../../content/ContentProvider";
 
 function ServiceCard({ service, onNavigate }) {
   return (
@@ -48,6 +48,7 @@ function ServiceCard({ service, onNavigate }) {
 }
 
 export function Services({ onNavigate }) {
+  const { massageServices, reflexologyServices } = useContent();
   return (
     <section id="prestations" className="bg-background py-20">
       <div className="container mx-auto px-4">

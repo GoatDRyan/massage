@@ -1,8 +1,9 @@
 import { Facebook, Heart, Instagram } from "lucide-react";
-import { site } from "../../config/site";
+import { useContent } from "../../content/ContentProvider";
 import { footerNavigationRoutes, legalRoutes } from "../routing/routes";
 
 export function Footer({ onNavigate }) {
+  const { site } = useContent();
   const handleNavigate = (event, path) => {
     event.preventDefault();
     onNavigate(path);

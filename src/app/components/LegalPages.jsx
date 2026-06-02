@@ -1,5 +1,5 @@
 import { FileText, Lock, ReceiptText } from "lucide-react";
-import { site } from "../../config/site";
+import { useContent } from "../../content/ContentProvider";
 
 function LegalBlock({ id, icon: Icon, title, children }) {
   return (
@@ -16,6 +16,7 @@ function LegalBlock({ id, icon: Icon, title, children }) {
 }
 
 export function LegalPages() {
+  const { site, legalTexts } = useContent();
   return (
     <section id="pages-legales" className="bg-background py-20">
       <div className="container mx-auto px-4">

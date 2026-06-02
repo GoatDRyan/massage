@@ -7,10 +7,10 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { site } from "../../config/site";
-import { massageServices, reflexologyServices } from "../../data/services";
+import { useContent } from "../../content/ContentProvider";
 
 export function Booking({ onNavigate }) {
+  const { site, massageServices, reflexologyServices } = useContent();
   const groupedServices = useMemo(
     () =>
       [...massageServices, ...reflexologyServices].map((service) => ({
@@ -27,7 +27,7 @@ export function Booking({ onNavigate }) {
           bookingUrl: duration.bookingUrl,
         })),
       })),
-    []
+    [massageServices, reflexologyServices]
   );
 
   const [selectedServiceId, setSelectedServiceId] = useState(

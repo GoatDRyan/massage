@@ -1,10 +1,11 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
-import { site } from "../../config/site";
+import { useContent } from "../../content/ContentProvider";
 import { mainNavigationRoutes } from "../routing/routes";
 
 export function Navigation({ currentPath, onNavigate }) {
+  const { site } = useContent();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleNavigate = (event, path) => {

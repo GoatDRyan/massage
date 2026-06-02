@@ -1,6 +1,6 @@
 import { Calendar, Leaf, Users } from "lucide-react";
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { experiences } from "../../data/experiences";
+import { useContent } from "../../content/ContentProvider";
 
 const icons = {
   users: Users,
@@ -8,6 +8,7 @@ const icons = {
 };
 
 export function Experiences() {
+  const { experiences } = useContent();
   return (
     <section id="experiences" className="bg-gradient-to-br from-primary/5 to-secondary/5 py-20">
       <div className="container mx-auto px-4">

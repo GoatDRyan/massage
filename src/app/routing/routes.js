@@ -89,6 +89,13 @@ export const routes = [
       "Contactez Renaissens pour une question ou une demande de rendez-vous. Déplacements à domicile autour de Rouen Métropole.",
   },
   {
+    path: "/admin",
+    label: "Admin",
+    title: `Admin Renaissens — ${baseTitle}`,
+    description: "Interface d’administration privée pour modifier le contenu du site Renaissens.",
+    footerOnly: true,
+  },
+  {
     path: "/mentions-legales",
     label: "Mentions légales",
     title: `Mentions légales — ${baseTitle}`,

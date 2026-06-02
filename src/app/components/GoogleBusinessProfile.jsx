@@ -1,6 +1,6 @@
 import { CheckCircle2, MapPinned, Star } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
-import { isGoogleProfileConfigured, isGoogleReviewConfigured, site } from "../../config/site";
+import { useContent } from "../../content/ContentProvider";
 
 const profileChecklist = [
   "Créer ou revendiquer la fiche Google Business Profile",
@@ -12,6 +12,7 @@ const profileChecklist = [
 ];
 
 export function GoogleBusinessProfile() {
+  const { isGoogleProfileConfigured, isGoogleReviewConfigured, site } = useContent();
   return (
     <section id="google-business-profile" className="bg-gradient-to-br from-primary/5 to-secondary/5 py-20">
       <div className="container mx-auto px-4">

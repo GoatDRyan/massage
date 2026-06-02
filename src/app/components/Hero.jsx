@@ -1,8 +1,9 @@
 import { HeartHandshake, MapPin, Sparkles } from "lucide-react";
 import { Button } from "./ui/button";
-import { site } from "../../config/site";
+import { useContent } from "../../content/ContentProvider";
 
 export function Hero({ onNavigate }) {
+  const { site } = useContent();
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden pt-24">
       <div className="absolute inset-0 overflow-hidden">

@@ -19,6 +19,8 @@ import { ContactPage } from "./pages/ContactPage";
 import { LegalNoticePage } from "./pages/LegalNoticePage";
 import { PrivacyPolicyPage } from "./pages/PrivacyPolicyPage";
 import { BookingConditionsPage } from "./pages/BookingConditionsPage";
+import { AdminPage } from "./pages/AdminPage";
+import { ContentProvider } from "../content/ContentProvider";
 
 const pageMap = {
   "/": HomePage,
@@ -36,6 +38,7 @@ const pageMap = {
   "/mentions-legales": LegalNoticePage,
   "/politique-confidentialite": PrivacyPolicyPage,
   "/conditions-reservation": BookingConditionsPage,
+  "/admin": AdminPage,
 };
 
 function resolveDestination(destination) {
@@ -93,15 +96,17 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <HeadManager route={route} />
-      <Navigation currentPath={currentPath} onNavigate={navigate} />
+    <ContentProvider>
+      <div className="min-h-screen bg-background text-foreground">
+        <HeadManager route={route} />
+        {route.path !== "/admin" && <Navigation currentPath={currentPath} onNavigate={navigate} />}
 
-      <main>
-        <Page onNavigate={navigate} />
-      </main>
+        <main>
+          <Page onNavigate={navigate} />
+        </main>
 
-      <Footer onNavigate={navigate} />
-    </div>
+        {route.path !== "/admin" && <Footer onNavigate={navigate} />}
+      </div>
+    </ContentProvider>
   );
 }

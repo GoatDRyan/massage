@@ -1,0 +1,297 @@
+{
+  "site": {
+    "brandName": "Renaissens",
+    "url": "https://www.renaissens-bienetre.fr",
+    "logo": {
+      "src": "/img/logo.png"
+    },
+    "practitionerName": "Magali Perrin",
+    "baseline": "Massages bien-être holistiques, réflexologie plantaire et accompagnement émotionnel à domicile",
+    "city": "Rouen",
+    "region": "Normandie",
+    "interventionArea": "30 km autour de Rouen Métropole",
+    "experienceYears": 6,
+    "phone": "06.60.21.51.09",
+    "phoneHref": "tel:+33660215109",
+    "email": "magaliperrin.bienetre@gmail.com",
+    "emailHref": "mailto:magaliperrin.bienetre@gmail.com",
+    "booking": {
+      "url": "https://cal.eu/ryan-ndachf",
+      "provider": "Cal.com"
+    },
+    "google": {
+      "businessProfileUrl": "",
+      "reviewUrl": ""
+    },
+    "legal": {
+      "editor": "Magali Perrin",
+      "businessName": "Renaissens",
+      "siret": "À compléter",
+      "host": "Vercel Inc.",
+      "hostUrl": "https://vercel.com"
+    },
+    "socials": {
+      "instagram": "https://www.instagram.com/bienetremag/",
+      "facebook": "https://www.facebook.com/magaliperrin.bienetre/",
+      "linkedin": "",
+      "pinterest": ""
+    }
+  },
+  "massageServices": [
+    {
+      "id": "massage-suedois-californien",
+      "name": "Massage suédois californien",
+      "description": "Massage relaxant et enveloppant combinant des mouvements fluides et profonds pour relâcher les tensions musculaires et favoriser la détente globale.",
+      "benefits": [
+        "Détente profonde",
+        "Relâchement musculaire",
+        "Apaisement du stress",
+        "Harmonie du corps"
+      ],
+      "durations": [
+        {
+          "time": "60 min",
+          "price": "70 €",
+          "calLink": "votre-lien-a-remplacer/massage-suedois-californien",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-suedois-californien"
+        },
+        {
+          "time": "90 min",
+          "price": "90 €",
+          "calLink": "votre-lien-a-remplacer/massage-suedois-californien-90",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-suedois-californien-90"
+        }
+      ]
+    },
+    {
+      "id": "massage-thai-des-pieds",
+      "name": "Massage thaï des pieds",
+      "description": "Massage des pieds inspiré de techniques de réflexologie, idéal pour favoriser la détente, l’ancrage et la sensation de légèreté.",
+      "benefits": [
+        "Stimulation énergétique",
+        "Amélioration de la circulation",
+        "Détente des pieds",
+        "Rééquilibrage corporel"
+      ],
+      "durations": [
+        {
+          "time": "60 min",
+          "price": "70 €",
+          "calLink": "votre-lien-a-remplacer/massage-thai-des-pieds",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-thai-des-pieds"
+        },
+        {
+          "time": "90 min",
+          "price": "90 €",
+          "calLink": "votre-lien-a-remplacer/massage-thai-des-pieds-90",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-thai-des-pieds-90"
+        }
+      ]
+    },
+    {
+      "id": "massage-amincissant",
+      "name": "Massage amincissant",
+      "description": "Massage tonique ciblé favorisant la circulation sanguine et lymphatique, aidant à lisser la peau et améliorer la silhouette.",
+      "benefits": [
+        "Circulation activée",
+        "Tonification",
+        "Peau lissée",
+        "Soutien de la silhouette"
+      ],
+      "durations": [
+        {
+          "time": "60 min",
+          "price": "70 €",
+          "calLink": "votre-lien-a-remplacer/massage-amincissant",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-amincissant"
+        },
+        {
+          "time": "90 min",
+          "price": "90 €",
+          "calLink": "votre-lien-a-remplacer/massage-amincissant-90",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-amincissant-90"
+        }
+      ]
+    },
+    {
+      "id": "massage-ayurvedique",
+      "name": "Massage ayurvédique",
+      "description": "Massage énergétique issu de la tradition indienne, utilisant des mouvements rythmiques pour harmoniser le corps et l’esprit.",
+      "benefits": [
+        "Harmonisation énergétique",
+        "Rythme apaisant",
+        "Détente intérieure",
+        "Rééquilibrage corporel"
+      ],
+      "durations": [
+        {
+          "time": "60 min",
+          "price": "70 €",
+          "calLink": "votre-lien-a-remplacer/massage-ayurvedique",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-ayurvedique"
+        },
+        {
+          "time": "90 min",
+          "price": "90 €",
+          "calLink": "votre-lien-a-remplacer/massage-ayurvedique-90",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-ayurvedique-90"
+        }
+      ]
+    },
+    {
+      "id": "massage-bebe",
+      "name": "Massage bébé",
+      "description": "Moment de douceur favorisant le lien parent-enfant, la détente et le bien-être du nourrisson.",
+      "benefits": [
+        "Douceur apaisante",
+        "Lien parent-enfant",
+        "Bien-être du nourrisson",
+        "Détente profonde"
+      ],
+      "durations": [
+        {
+          "time": "60 min",
+          "price": "50 €",
+          "calLink": "votre-lien-a-remplacer/massage-bebe",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-bebe"
+        }
+      ]
+    },
+    {
+      "id": "massage-dos-nuque-epaules",
+      "name": "Massage dos, nuque et épaules",
+      "description": "Une séance courte pour soulager les tensions du haut du corps et retrouver plus de confort.",
+      "benefits": [
+        "Soulage les tensions",
+        "Détend la nuque",
+        "Apaise les épaules",
+        "Idéal en cas de fatigue"
+      ],
+      "durations": [
+        {
+          "time": "30 min",
+          "price": "35 €",
+          "calLink": "magali-perrin/massage-dos-nuque-epaules",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/magali-perrin/massage-dos-nuque-epaules"
+        },
+        {
+          "time": "60 min",
+          "price": "70 €",
+          "calLink": "votre-lien-a-remplacer/massage-dos-nuque-epaules-60",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-dos-nuque-epaules-60"
+        },
+        {
+          "time": "90 min",
+          "price": "90 €",
+          "calLink": "votre-lien-a-remplacer/massage-dos-nuque-epaules-90",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/massage-dos-nuque-epaules-90"
+        }
+      ]
+    }
+  ],
+  "reflexologyServices": [
+    {
+      "id": "reflexologie-plantaire",
+      "name": "Réflexologie plantaire",
+      "description": "Technique de stimulation des zones réflexes du pied pour favoriser la détente, l’ancrage et une sensation d’équilibre global.",
+      "benefits": [
+        "Relaxation",
+        "Sensation d’équilibre",
+        "Jambes plus légères",
+        "Bien-être global"
+      ],
+      "durations": [
+        {
+          "time": "60 min",
+          "price": "50 €",
+          "calLink": "votre-lien-a-remplacer/reflexologie-plantaire",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/reflexologie-plantaire"
+        },
+        {
+          "time": "90 min",
+          "price": "70 €",
+          "calLink": "votre-lien-a-remplacer/reflexologie-plantaire-90",
+          "calOrigin": "https://cal.com",
+          "bookingUrl": "https://cal.com/votre-lien-a-remplacer/reflexologie-plantaire-90"
+        }
+      ]
+    }
+  ],
+  "faqItems": [
+    {
+      "question": "Quelle zone couvrez-vous autour de Rouen ?",
+      "answer": "Les déplacements se font à domicile dans un rayon d’environ 30 km autour de Rouen Métropole. Pour les communes plus éloignées, il est possible de demander confirmation avant de réserver."
+    },
+    {
+      "question": "Faut-il prévoir une table de massage ?",
+      "answer": "Non. La praticienne peut se déplacer avec le matériel nécessaire selon la prestation. Il faut simplement prévoir un espace calme, chauffé et suffisamment dégagé pour installer le matériel confortablement."
+    },
+    {
+      "question": "Comment choisir le massage adapté ?",
+      "answer": "Le choix dépend de votre besoin du moment : détente globale, relâchement musculaire, besoin d’ancrage, fatigue, tensions du dos ou envie de reconnexion corporelle. Un court échange avant la séance permet d’adapter le soin."
+    },
+    {
+      "question": "Les massages remplacent-ils un suivi médical ?",
+      "answer": "Non. Les prestations proposées sont des soins de bien-être non médicaux. Elles ne remplacent pas un avis, un diagnostic ou un traitement médical."
+    },
+    {
+      "question": "Comment réserver une séance ?",
+      "answer": "La réservation peut se faire en ligne via le calendrier intégré ou par contact direct si vous avez besoin d’échanger avant de choisir une prestation."
+    },
+    {
+      "question": "Peut-on annuler ou déplacer un rendez-vous ?",
+      "answer": "Oui, les confirmations envoyées par l’outil de réservation permettent généralement de modifier ou annuler un rendez-vous. En cas de doute, il suffit de contacter la praticienne directement."
+    }
+  ],
+  "clientReviews": [],
+  "experiences": [
+    {
+      "icon": "users",
+      "title": "Cercles de parole",
+      "description": "Des temps d’échange en petit groupe pour déposer, écouter, partager et retrouver un espace de présence bienveillant.",
+      "schedule": "Soirées et week-ends",
+      "img": "./img/cercle.png",
+      "alt": "Cercle de parole bien-être à Rouen dans un cadre doux et sécurisant"
+    },
+    {
+      "icon": "leaf",
+      "title": "Week-ends bien-être",
+      "description": "Des parenthèses ressourçantes dans des lieux calmes pour ralentir, respirer et se reconnecter à soi.",
+      "schedule": "Dates communiquées sur demande",
+      "img": "./img/weekend.png",
+      "alt": "Week-end bien-être et ressourcement en Normandie"
+    }
+  ],
+  "legalTexts": {
+    "legalNotice": [
+      "Le site Renaissens est édité par Magali Perrin, praticienne bien-être intervenant autour de Rouen.",
+      "Nom commercial : Renaissens.",
+      "Les prestations proposées sont des soins de bien-être non médicaux. Elles ne remplacent pas un avis médical, un diagnostic ou un traitement."
+    ],
+    "privacyPolicy": [
+      "Les données personnelles collectées via le site sont limitées au nécessaire : nom, email, téléphone éventuel et contenu du message envoyé par l'utilisateur.",
+      "Le formulaire de contact prépare un email via l'application de messagerie de l'utilisateur. Le site ne stocke pas les messages dans une base de données.",
+      "La réservation peut être gérée par un service externe tel que Cal.com. Les données renseignées dans le calendrier sont alors traitées selon la politique de confidentialité du prestataire utilisé.",
+      "Les données ne sont pas revendues. Elles servent uniquement à répondre aux demandes de contact ou à organiser les rendez-vous."
+    ],
+    "bookingConditions": [
+      "Les rendez-vous peuvent être pris en ligne via le calendrier de réservation ou par contact direct.",
+      "Le paiement est effectué selon les modalités communiquées par la praticienne. Le site ne gère pas de paiement en ligne dans sa version actuelle.",
+      "En cas d'annulation ou de demande de report, il est recommandé de prévenir le plus tôt possible afin de libérer le créneau pour une autre personne.",
+      "Les prestations proposées sont des soins de bien-être non médicaux. Elles ne se substituent pas à un avis médical, un diagnostic ou un traitement."
+    ]
+  }
+}

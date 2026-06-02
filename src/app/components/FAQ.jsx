@@ -1,7 +1,8 @@
 import { HelpCircle } from "lucide-react";
-import { faqItems } from "../../data/faq";
+import { useContent } from "../../content/ContentProvider";
 
 export function FAQ() {
+  const { faqItems } = useContent();
   return (
     <section id="faq" className="bg-background py-20">
       <div className="container mx-auto px-4">

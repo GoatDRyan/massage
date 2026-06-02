@@ -1,9 +1,9 @@
 import { Star } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
-import { clientReviews } from "../../data/reviews";
-import { isGoogleProfileConfigured, isGoogleReviewConfigured, site } from "../../config/site";
+import { useContent } from "../../content/ContentProvider";
 
 export function Reviews() {
+  const { clientReviews, isGoogleProfileConfigured, isGoogleReviewConfigured, site } = useContent();
   return (
     <section id="avis-clients" className="bg-muted/30 py-20">
       <div className="container mx-auto px-4">
@@ -24,15 +24,15 @@ export function Reviews() {
           {clientReviews.length > 0 ? (
             <div className="grid gap-6 md:grid-cols-3">
               {clientReviews.map((review) => (
-                <Card key={review.author} className="border-2">
+                <Card key={review.author || review.clientName || review.clientName || review.text || review.reviewText} className="border-2">
                   <CardContent className="space-y-4 pt-6">
                     <div className="flex gap-1 text-accent" aria-label={`${review.rating} étoiles`}>
                       {Array.from({ length: review.rating }).map((_, index) => (
                         <Star key={index} size={16} fill="currentColor" />
                       ))}
                     </div>
-                    <p className="text-sm leading-relaxed text-foreground/75">“{review.text}”</p>
-                    <p className="text-sm font-medium text-primary">{review.author}</p>
+                    <p className="text-sm leading-relaxed text-foreground/75">“{review.text || review.reviewText}”</p>
+                    <p className="text-sm font-medium text-primary">{review.author || review.clientName}</p>
                   </CardContent>
                 </Card>
               ))}
