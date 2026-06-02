@@ -76,6 +76,7 @@ export function HomePage({ onNavigate }) {
       </section>
       <PersonalStory />
       <Testimonials />
+      <Reviews />
 
       <section className="bg-gradient-to-br from-primary/5 to-secondary/5 py-20">
         <div className="container mx-auto px-4">

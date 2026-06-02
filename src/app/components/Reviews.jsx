@@ -43,9 +43,6 @@ export function Reviews() {
                 <Star size={24} />
               </div>
               <h3 className="text-xl font-medium text-foreground">Les avis seront ajoutés progressivement</h3>
-              <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-foreground/70">
-                Pour rester crédible, cette section n’affiche pas de faux témoignages. Les retours clients pourront être ajoutés après accord ou reliés directement à la fiche Google Business Profile.
-              </p>
               <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
                 {isGoogleReviewConfigured ? (
                   <a
