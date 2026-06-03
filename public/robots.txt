@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.renaissens-bienetre.fr/sitemap.xml
+Sitemap: https://renaissens.vercel.app/sitemap.xml
