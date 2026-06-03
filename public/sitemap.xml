@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.renaissens-bienetre.fr/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/massage-a-domicile-rouen</loc><priority>0.95</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/reflexologie-plantaire-rouen</loc><priority>0.9</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/cercles-de-parole-rouen</loc><priority>0.85</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/ateliers-bien-etre-normandie</loc><priority>0.85</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/deroulement-seance</loc><priority>0.75</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/reservation</loc><priority>0.8</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/a-propos</loc><priority>0.7</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/avis-clients</loc><priority>0.7</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/faq</loc><priority>0.7</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/blog</loc><priority>0.65</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/contact</loc><priority>0.8</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/mentions-legales</loc><priority>0.3</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/politique-confidentialite</loc><priority>0.3</priority></url>
-  <url><loc>https://www.renaissens-bienetre.fr/conditions-reservation</loc><priority>0.3</priority></url>
+  <url><loc>https://renaissens.vercel.app/</loc><priority>1.0</priority></url>
+  <url><loc>https://renaissens.vercel.app/massage-a-domicile-rouen</loc><priority>0.95</priority></url>
+  <url><loc>https://renaissens.vercel.app/reflexologie-plantaire-rouen</loc><priority>0.9</priority></url>
+  <url><loc>https://renaissens.vercel.app/cercles-de-parole-rouen</loc><priority>0.85</priority></url>
+  <url><loc>https://renaissens.vercel.app/ateliers-bien-etre-normandie</loc><priority>0.85</priority></url>
+  <url><loc>https://renaissens.vercel.app/deroulement-seance</loc><priority>0.75</priority></url>
+  <url><loc>https://renaissens.vercel.app/reservation</loc><priority>0.8</priority></url>
+  <url><loc>https://renaissens.vercel.app/a-propos</loc><priority>0.7</priority></url>
+  <url><loc>https://renaissens.vercel.app/avis-clients</loc><priority>0.7</priority></url>
+  <url><loc>https://renaissens.vercel.app/faq</loc><priority>0.7</priority></url>
+  <url><loc>https://renaissens.vercel.app/blog</loc><priority>0.65</priority></url>
+  <url><loc>https://renaissens.vercel.app/contact</loc><priority>0.8</priority></url>
+  <url><loc>https://renaissens.vercel.app/mentions-legales</loc><priority>0.3</priority></url>
+  <url><loc>https://renaissens.vercel.app/politique-confidentialite</loc><priority>0.3</priority></url>
+  <url><loc>https://renaissens.vercel.app/conditions-reservation</loc><priority>0.3</priority></url>
 </urlset>
