@@ -183,7 +183,7 @@ export function Booking({ onNavigate }) {
               <CardContent>
                 {!hasCalLink ? (
                   <div className="rounded-2xl bg-muted p-6 text-sm leading-relaxed text-foreground/75">
-                    <strong>Calendrier à configurer :</strong> ajoute le vrai <code>calLink</code> dans <code>src/data/services.js</code>.
+                    <strong>Calendrier à configurer :</strong> ajoute le vrai <code>calLink</code> dans <code>src/data/services.js</code> ou dans l'interface admin.
                     <br />
                     Exemple : <code>ryan-ndachf/massage-suedois-californien</code>
                   </div>
