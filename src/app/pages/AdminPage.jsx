@@ -291,7 +291,7 @@ export function AdminPage() {
             <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
               <div>
                 <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm text-primary">
-                  <Lock size={16} /> Admin gratuit
+                  <Lock size={16} /> Admin
                 </div>
                 <h1 className="text-3xl font-semibold text-foreground md:text-4xl">Interface d’administration Renaissens</h1>
                 <p className="mt-3 max-w-2xl text-sm leading-relaxed text-foreground/65">
